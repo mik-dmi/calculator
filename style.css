@@ -1,0 +1,45 @@
+.calculatorFrame{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 20px;
+    background: rgb(56, 72, 240);
+    width: 500px;
+    height: 700px; 
+    align-items: center; 
+}
+
+.display{
+    border:1px solid black;
+    border-radius: 5px;
+    background: rgb(185, 185, 188);
+    width: 450px;
+    height: 70px; 
+    margin-top: 30px;
+}
+
+.gridNumbers {
+    display: grid;
+    width: fit-content;
+    width: fit-content;
+    grid-gap: 20px 15px;
+    margin-top: 50px;
+    
+
+
+}
+
+
+.buttons {
+    padding: 15px 40px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+/* Adding transformation when the button is active */
+  
+.buttons:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(8px);
+}
