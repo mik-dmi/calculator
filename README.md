@@ -5,12 +5,12 @@ This is a simple calculator web application built with HTML, CSS, and JavaScript
 
 Features:
 
-Addition
+> Addition
 
-Subtraction
+> Subtraction
 
-Multiplication
+> Multiplication
 
-Division
+> Division
 
-Clear button
+> Clear button
